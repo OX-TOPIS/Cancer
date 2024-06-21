@@ -1,10 +1,13 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import '.././App.css'
 
 const Main = () => {
   return (
     <div>
-        <nav>--- Nav ไว้ส่งหัวข้อมานี่ ---</nav>
+        <nav className='text-center p-4 shadow-sm shadow-black-100 bg-white'>
+          Name in Navbar ?
+        </nav>
         {/* form react router dom at in rounter.jsx*/}
         <Outlet/>
     </div>

@@ -7,7 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        "num1": "#ff0000",
+        "blue700": "#012B49",
+        "blue500": "#00689D",
+        "blue400": "#007DBC",
+        "blue300": "#3D9ACC",
+        "blue100": "#BEDEEF",
+        "blue50": "#E7F3F9",
+        "red300": "#FF6260",
+        "Bg100": "#F9F9F9"
       }
     },
   },
