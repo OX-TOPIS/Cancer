@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Button, Flex } from 'antd';
 
 const Effects = () => {
   return (
@@ -9,15 +10,13 @@ const Effects = () => {
         <div className="">
           {/* button */}
           <Link to={"/Effects/AddEffects"}>
-          <button className='p-3 rounded-full w-full text-blue700 bg-blue100 border-collapse border-2 border-solid border-blue700'>+ เพิ่มผลค้างเคียง</button>
+          <button className='bt-blue'>+ เพิ่มผลค้างเคียง</button>
           </Link>
           {/* His Effects */}
           <div className="pt-6">
             <h3 className='pb-2'>ประวัติการบันทึกผลข้างเคียง</h3>
-
-
             {/* กล่อง Loop ที่นี่*/}
-            <div className="bg-white shadow-md shadow-blue100 px-4 py-2 rounded-lg flex justify-around items-center">
+            <div className="box-sd">
               <div className="text-center text-blue700 shadow-sm">
                 <p className='text-sm'>บันทึกครั้งที่</p>
                 <h2 className='text-5xl'>6</h2>

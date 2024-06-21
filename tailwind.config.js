@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         "blue700": "#012B49",
+        "blue600": "#00537D",
         "blue500": "#00689D",
         "blue400": "#007DBC",
         "blue300": "#3D9ACC",

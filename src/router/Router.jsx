@@ -7,10 +7,12 @@ import Contacts from "../pages/Contacts/Contacts";
 import Effects from "../pages/Effects/Effects";
 import PatientManual from "../pages/PatientManual/PatientManual";
 import Login from "../pages/Authentication/Login";
+import Register from "../pages/Authentication/Register";
 import AppointmentDetails from "../pages/Appointment/AppointmentDetails";
 import PostponeAppointment from "../pages/Appointment/PostponeAppointment";
 import FillResults from "../pages/BloodResults/FillResults";
 import AddEffects from "../pages/Effects/AddEffects";
+import DisplayBloodResults from "../pages/BloodResults/DisplayBloodResults";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
         {
           path: "/BloodResults/FillResults",
           element: <FillResults/>
+        },
+        {
+          path: "/BloodResults/DisplayBloodResults",
+          element: <DisplayBloodResults/>
         },
         {
           path: "/Appointment",
@@ -63,7 +69,7 @@ const router = createBrowserRouter([
         },
         {
           path: "/Register",
-          element: <Login/>,
+          element: <Register/>,
         }
       ]
     }

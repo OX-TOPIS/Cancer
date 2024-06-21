@@ -5,6 +5,16 @@ body {
   background-color: #F9F9F9;
 }
 
+.bt-blue{
+  @apply p-3 rounded-full w-full text-white bg-blue700 border-collapse hover:bg-blue600 duration-300 hover:drop-shadow-lg
+}
+
+.box-sd{
+  @apply bg-white drop-shadow-md shadow-gray-200 px-4 py-2 rounded-lg flex justify-around items-center
+}
+
+
+
 .sarabun-thin {
   font-family: "Sarabun", sans-serif;
   font-weight: 100;

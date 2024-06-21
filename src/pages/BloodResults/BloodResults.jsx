@@ -8,7 +8,7 @@ const BloodResults = () => {
 
   <Link to={"/BloodResults/FillResults"}>
       {/* กล่องแผนการรักษา */}
-      <div className="bg-white shadow-md shadow-blue100 px-4 py-2 rounded-lg">
+      <div className="bg-white drop-shadow-md shadow-gray-200 px-4 py-2 rounded-lg">
         {/* ICON */}
         <div className=""><img src="" alt="" /></div>
         {/* TEXT */}
