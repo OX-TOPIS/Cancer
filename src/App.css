@@ -13,7 +13,9 @@ body {
   @apply bg-white drop-shadow-md shadow-gray-200 px-4 py-2 rounded-lg flex justify-around items-center
 }
 
-
+.bt2-blue{
+  @apply p-3 rounded-full text-blue700 border-collapse hover:text-blue600 duration-300 hover:drop-shadow-lg border-2 border-blue700 hover:border-blue500
+}
 
 .sarabun-thin {
   font-family: "Sarabun", sans-serif;

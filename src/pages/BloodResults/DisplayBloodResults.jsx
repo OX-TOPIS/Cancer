@@ -30,7 +30,7 @@ const DisplayBloodResults = () => {
             {/* กล่อง Loop ที่นี่*/}
             <div className="box-sd">
               <div className="">
-                <img src="" alt="" />
+                <img src="/ing/img.png" alt="" />
               </div>
               <div className="">
                 <h3>images/123456.jpg</h3>

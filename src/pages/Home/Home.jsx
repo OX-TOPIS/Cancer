@@ -3,28 +3,21 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className=''>
-      <div className="">หน้านี้ทำทิ้งไว้คลิกไปแต่ละหน้าเฉยๆ</div>
+    <div className='flex flex-col items-center text-center p-4'>
         <br />
-        <Link to={"/BloodResults"}>BloodResults wt</Link>
+        <Link to={"/BloodResults"} className='bt-blue'>Blood Results</Link>
         <br />
+        <Link to={"/Appointment"} className='bt-blue'>Appointment</Link>
         <br />
-        <Link to={"/Appointment"}>Appointment //นง</Link>
+        <Link to={"/Contacts"} className='bt-blue'>Contacts</Link>
         <br />
+        <Link to={"/Effects"} className='bt-blue'>Effects</Link>
         <br />
-        <Link to={"/Contacts"}>Contacts //นง</Link>
+        <Link to={"/PatientManual"} className='bt-blue'>Patient Manual</Link>
         <br />
+        <Link to={"/Login"} className='bt-blue'>Login</Link>
         <br />
-        <Link to={"/Effects"}>Effects</Link>
-        <br />
-        <br />
-        <Link to={"/PatientManual"}>PatientManual //นง</Link>
-        <br />
-        <br />
-        <Link to={"/Login"}>Login</Link>
-        <br />
-        <br />
-        <Link to={"/Register"}>Register</Link>
+        <Link to={"/Register"} className='bt-blue'>Register</Link>
         <br />
     </div>
   )

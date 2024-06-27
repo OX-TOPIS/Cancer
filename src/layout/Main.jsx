@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div>
         <nav className='text-center p-4 shadow-sm shadow-black-100 bg-white'>
-          Name in Navbar ?
+          Bloody
         </nav>
         {/* form react router dom at in rounter.jsx*/}
         <Outlet/>
